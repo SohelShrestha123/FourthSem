@@ -1,0 +1,131 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+body{
+    margin:auto;
+    padding:0;
+    width:100%;
+    min-height: 24cm;
+   background-color: rgb(10, 36, 139);
+    font-family:sans-serif;
+}
+
+
+.copy{
+    width: 380px;
+    height: 645px;
+    background: rgb(43, 231, 36);
+    color:black;
+    top: 50%;
+    left: 50%;
+    position:absolute;
+    transform: translate(-50%,-40%);
+    box-sizing: border-box;
+    padding: 20px 20px;
+}
+
+.copy h1{
+    font-size:30px;
+    text-align:center;
+    text-transform:uppercase;
+    margin: 40px 0;
+}
+
+.copy label{
+  font-size:18px;
+  margin:10px;
+}
+
+.copy input{
+font-size: 16px;
+padding: 8px;
+margin: 5px;
+width:10;
+border:0;
+border-radius: 5px;
+outline: none;
+}
+
+.copy button{
+    font-size: 18px;
+    font-weight:bold;
+    margin: 5px;
+    padding:5px;
+    width: 30%;
+    border: 0;
+    border-radius: 5px;
+    background-color: rgb(5, 209, 241);
+}
+
+.copy button:hover{
+    background-color:rgb(68, 68, 197) ;
+    color:rgb(212, 0, 255);
+}
+
+.mean{
+    top: 0px;
+    left: 50px;
+    transform: translate(-50%,-5%);
+
+}
+
+.copy form .data{
+    margin-bottom: 17px;
+    display: flex;
+    align-items: center;
+}
+
+.copy form .data label{
+width: 200px;
+margin-right: 10px;
+font-size: 16px;
+font-weight: bold;
+}
+
+.copy form .data label{
+width: 200px;
+margin-right: 10px;
+font-size: 16px;
+font-weight: bold;
+}
+
+.copy form .data select{
+    position: relative;
+    width: 185px;
+    height: 32px;
+    border-radius: 5px;
+}
+
+.navigation{
+    background-color: rgb(35, 255, 251);
+    color: rgb(237, 83, 22);
+    text-align: center;
+    height: 70px;
+    font-size: 22px;
+}
+
+.navigation ul{
+    float: right;
+    margin-right: 20px;
+    }
+    
+    .navigation ul li{
+        list-style: none;
+    }
+    
+    .navigation ul li a{
+        text-decoration: none;
+        color: white;
+        font-size: 15px;
+        padding: 6px 13px;
+        font-family: 'Roboto',sans-serif;
+        transition: .4s;
+    }
+    
+    .navigation ul li a.active,
+    .navigation ul li a:hover{
+        background: skyblue;
+        border-radius:2px;
+    }

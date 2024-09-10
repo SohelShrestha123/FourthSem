@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #7158e2;
+    width:100%;
+    min-height: 24cm;
+}
+
+.message-container {
+    background-color: #1aeb1e;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 400px;
+    text-align: center;
+}
+
+.message h1 {
+    margin-top: 0;
+    font-size: 24px;
+    color: rgb(92, 11, 11);
+    font-weight: bold;
+}
+
+.message p {
+    font-size: 16px;
+    color: #000000;
+}
+
+
+    .button button{
+        background-color: #03cbf4;
+    }
+
+    .button button:hover{
+        background-color: #2290fe;
+    }

@@ -1,0 +1,19 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #6bb8db;
+    text-align: center;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+.item {
+    margin-bottom: 10px;
+}
+
+table{
+    background-color: white;
+}
